@@ -63,7 +63,7 @@ jobs:
       run: |
         ls
         pwd
-        mkdir 
+        mkdir coverage-reports
         pytest --cucumberjson=coverage-reports/test.json
     - name: Archive coverage report
       uses: actions/upload-artifact@v1
